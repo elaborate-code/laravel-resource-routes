@@ -2,9 +2,9 @@
 
 namespace ElaborateCode\ResourceRoute;
 
-use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\Route;
 
-class ResourceRoute extends Router
+class ResourceRoute
 {
     /**
      * Route a resource to a controller index method.
@@ -15,7 +15,7 @@ class ResourceRoute extends Router
      */
     public function index($name, $controller)
     {
-        return $this->resource($name, $controller, ['only' => __FUNCTION__]);
+        return Route::resource($name, $controller)->only([__FUNCTION__]);
     }
 
     /**
@@ -27,7 +27,7 @@ class ResourceRoute extends Router
      */
     public function store($name, $controller)
     {
-        return $this->resource($name, $controller, ['only' => __FUNCTION__]);
+        return Route::resource($name, $controller)->only([__FUNCTION__]);
     }
 
     /**
@@ -39,7 +39,7 @@ class ResourceRoute extends Router
      */
     public function create($name, $controller)
     {
-        return $this->resource($name, $controller, ['only' => __FUNCTION__]);
+        return Route::resource($name, $controller)->only([__FUNCTION__]);
     }
 
     /**
@@ -51,7 +51,7 @@ class ResourceRoute extends Router
      */
     public function show($name, $controller)
     {
-        return $this->resource($name, $controller, ['only' => __FUNCTION__]);
+        return Route::resource($name, $controller)->only([__FUNCTION__]);
     }
 
     /**
@@ -63,7 +63,7 @@ class ResourceRoute extends Router
      */
     public function update($name, $controller)
     {
-        return $this->resource($name, $controller, ['only' => __FUNCTION__]);
+        return Route::resource($name, $controller)->only([__FUNCTION__]);
     }
 
     /**
@@ -75,7 +75,7 @@ class ResourceRoute extends Router
      */
     public function destroy($name, $controller)
     {
-        return $this->resource($name, $controller, ['only' => __FUNCTION__]);
+        return Route::resource($name, $controller)->only([__FUNCTION__]);
     }
 
     /**
@@ -87,6 +87,6 @@ class ResourceRoute extends Router
      */
     public function edit($name, $controller)
     {
-        return $this->resource($name, $controller, ['only' => __FUNCTION__]);
+        return Route::resource($name, $controller)->only([__FUNCTION__]);
     }
 }

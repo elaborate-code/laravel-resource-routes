@@ -1,14 +1,11 @@
 <?php
 
-use ElaborateCode\ResourceRoute\Facades\ResourceRoute;
-
 it('checks routes', function () {
-    ResourceRoute::index('entities', TestController::class);
-    $routeCollection = Illuminate\Support\Facades\Route::getRoutes();
 
-    dump($routeCollection);
+    // dump(Illuminate\Support\Facades\Route::getRoutes());
 
-    echo route('entities.create');
+    echo route('entities.index').PHP_EOL;
+    echo route('entities.create').PHP_EOL;
 
     $this->assertTrue(true);
 });
