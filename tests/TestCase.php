@@ -3,6 +3,7 @@
 namespace ElaborateCode\ResourceRoute\Tests;
 
 use ElaborateCode\ResourceRoute\ResourceRouteServiceProvider;
+use ElaborateCode\ResourceRoute\Tests\Providers\TestRouteServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
@@ -16,10 +17,7 @@ class TestCase extends Orchestra
     {
         return [
             ResourceRouteServiceProvider::class,
+            TestRouteServiceProvider::class,
         ];
-    }
-
-    public function getEnvironmentSetUp($app)
-    {
     }
 }
