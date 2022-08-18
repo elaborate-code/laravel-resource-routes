@@ -12,7 +12,7 @@ class ResourceRoute
      */
     public function index(string $name, string $controller): PendingResourceRegistration
     {
-        return Route::resource($name, $controller)->only([__FUNCTION__]);
+        return Route::resource($name, $controller, ['only' => __FUNCTION__]);
     }
 
     /**
@@ -20,7 +20,7 @@ class ResourceRoute
      */
     public function store(string $name, string $controller): PendingResourceRegistration
     {
-        return Route::resource($name, $controller)->only([__FUNCTION__]);
+        return Route::resource($name, $controller, ['only' => __FUNCTION__]);
     }
 
     /**
@@ -28,7 +28,7 @@ class ResourceRoute
      */
     public function create(string $name, string $controller): PendingResourceRegistration
     {
-        return Route::resource($name, $controller)->only([__FUNCTION__]);
+        return Route::resource($name, $controller, ['only' => __FUNCTION__]);
     }
 
     /**
@@ -36,7 +36,7 @@ class ResourceRoute
      */
     public function show(string $name, string $controller): PendingResourceRegistration
     {
-        return Route::resource($name, $controller)->only([__FUNCTION__]);
+        return Route::resource($name, $controller, ['only' => __FUNCTION__]);
     }
 
     /**
@@ -44,7 +44,7 @@ class ResourceRoute
      */
     public function update(string $name, string $controller): PendingResourceRegistration
     {
-        return Route::resource($name, $controller)->only([__FUNCTION__]);
+        return Route::resource($name, $controller, ['only' => __FUNCTION__]);
     }
 
     /**
@@ -52,7 +52,7 @@ class ResourceRoute
      */
     public function destroy(string $name, string $controller): PendingResourceRegistration
     {
-        return Route::resource($name, $controller)->only([__FUNCTION__]);
+        return Route::resource($name, $controller, ['only' => __FUNCTION__]);
     }
 
     /**
@@ -60,6 +60,6 @@ class ResourceRoute
      */
     public function edit(string $name, string $controller): PendingResourceRegistration
     {
-        return Route::resource($name, $controller)->only([__FUNCTION__]);
+        return Route::resource($name, $controller, ['only' => __FUNCTION__]);
     }
 }

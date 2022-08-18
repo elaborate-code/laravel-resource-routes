@@ -1,9 +1,11 @@
 {
     "name": "elaborate-code/laravel-resource-routes",
-    "description": "This is my package laravel-resource-routes",
+    "description": "A complementary Route Facade with methods to register resource routes",
     "keywords": [
         "elaborate-code",
         "laravel",
+        "routing",
+        "resources",
         "laravel-resource-routes"
     ],
     "homepage": "https://github.com/elaborate-code/laravel-resource-routes",
