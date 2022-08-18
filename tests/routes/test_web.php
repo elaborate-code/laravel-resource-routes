@@ -10,3 +10,4 @@ ResourceRoute::show('entities', TestController::class);
 ResourceRoute::edit('entities', TestController::class);
 ResourceRoute::update('entities', TestController::class);
 ResourceRoute::destroy('entities', TestController::class);
+// ResourceRoute::show('foos/{foo}/entities', TestController::class);

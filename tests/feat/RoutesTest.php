@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Arr;
 
+// it('dumps', function () {
+//     dd($this->routes);
+// });
+
 it('index route', function () {
     $name = 'index';
 
