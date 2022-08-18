@@ -7,7 +7,9 @@
 
 ![banner](https://banners.beyondco.de/Laravel%20Resource%20Routes.png?theme=dark&packageManager=composer+require&packageName=elaborate-code%2Flaravel-resource-routes&pattern=eyes&style=style_1&description=A+complementary+Route+Facade+with+methods+to+register+resource+routes&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
 
-`Route::ressource` is a very convenient method that handles many conventions on the fly like **the controller methods names**, **the URI** and the **HTTP verb**. But you may often find yourself altering methods signatures on the **ressource controller** that pushes you to extract the method route and chain `Route::ressource` with `only` or `except`. In the case you find yourself using `Route::ressource` for only one or two methods, this package may come in handy, to offer what may seem as a cleaner syntax (opinionaed).
+`Route::ressource` is a very convenient method that handles many conventions on the fly like **the controller methods names**, **the URI**, and **the HTTP verb**. But you may often find yourself altering methods signatures on **the ressource controller** that pushes you to extract the method route and chain `Route::ressource` with `only` or `except`.
+
+In the case you find yourself using `Route::ressource` for only one or two methods, this package may come in handy, to offer what may seem as a cleaner syntax (opinionated).
 
 ## Installation
 
@@ -44,7 +46,7 @@ Route::ressource('resources', ResourceController::class)->only('destroy');
 ## Testing
 
 ```bash
-composer test
+vendor/bin/pest
 ```
 
 ## Changelog
@@ -53,11 +55,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/elaborate-code/.github/blob/main/CONTRIBUTING.md) for details.
-
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Credits
 
