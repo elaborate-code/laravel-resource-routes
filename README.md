@@ -1,8 +1,11 @@
 # Laravel Resource Routes
 
+⚠️Do not use this library! If you like the idea just copy the code from [/src/ResourceRoute.php](https://github.com/elaborate-code/laravel-resource-routes/blob/main/src/ResourceRoute.php). You do not need to rely on me maintaining a small syntactic sugar to keep your product up and running (This was an error XD)
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/elaborate-code/laravel-resource-routes.svg?style=flat-square)](https://packagist.org/packages/elaborate-code/laravel-resource-routes)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/elaborate-code/laravel-resource-routes/run-tests?label=tests)](https://github.com/elaborate-code/laravel-resource-routes/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/elaborate-code/laravel-resource-routes/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/elaborate-code/laravel-resource-routes/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![run-tests](https://github.com/elaborate-code/laravel-resource-routes/actions/workflows/run-tests.yml/badge.svg)](https://github.com/elaborate-code/laravel-resource-routes/actions/workflows/run-tests.yml)
+[![Fix PHP code style issues](https://github.com/elaborate-code/laravel-resource-routes/actions/workflows/fix-php-code-style-issues.yml/badge.svg)](https://github.com/elaborate-code/laravel-resource-routes/actions/workflows/fix-php-code-style-issues.yml)
+[![PHPStan](https://github.com/elaborate-code/laravel-resource-routes/actions/workflows/phpstan.yml/badge.svg)](https://github.com/elaborate-code/laravel-resource-routes/actions/workflows/phpstan.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/elaborate-code/laravel-resource-routes.svg?style=flat-square)](https://packagist.org/packages/elaborate-code/laravel-resource-routes)
 
 ![banner](https://banners.beyondco.de/Laravel%20Resource%20Routes.png?theme=dark&packageManager=composer+require&packageName=elaborate-code%2Flaravel-resource-routes&pattern=eyes&style=style_1&description=A+complementary+Route+Facade+with+methods+to+register+resource+routes&md=1&showWatermark=0&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg)
@@ -48,19 +51,6 @@ ResourceRoute::destroy('resources', ResourceController::class);
 ```bash
 vendor/bin/pest
 ```
-
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Credits
-
-- [medilies](https://github.com/elaborate-code)
-- [All Contributors](../../contributors)
 
 ## License
 
