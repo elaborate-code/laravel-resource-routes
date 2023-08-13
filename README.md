@@ -1,6 +1,6 @@
 # Laravel Resource Routes
 
-⚠️Do not use this library! If you like the idea just copy the code from [/src/ResourceRoute.php](https://github.com/elaborate-code/laravel-resource-routes/blob/main/src/ResourceRoute.php). You do not need to rely on me maintaining a small syntactic sugar to keep your product up and running (This was an error XD)
+⚠️Do not use this library! If you like the idea just copy the code from [/src/ResourceRoute.php](https://github.com/elaborate-code/laravel-resource-routes/blob/main/src/ResourceRoute.php). You do not need to rely on me maintaining a small syntactic sugar to keep your product up and running.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/elaborate-code/laravel-resource-routes.svg?style=flat-square)](https://packagist.org/packages/elaborate-code/laravel-resource-routes)
 [![run-tests](https://github.com/elaborate-code/laravel-resource-routes/actions/workflows/run-tests.yml/badge.svg)](https://github.com/elaborate-code/laravel-resource-routes/actions/workflows/run-tests.yml)
